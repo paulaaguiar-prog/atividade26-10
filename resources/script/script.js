@@ -5,11 +5,17 @@
 // console.log(document.querySelector("p"));
 // console.log(document.querySelector("texto"));
 // console.log(document.querySelector("Paragrafo"));
-let div = document.querySelector("#content");
 
-let paragrafo = document.createElement("p");
+//anexar umanoa tag pelo js
+// let div = document.querySelector("#content");
 
-let textoParagrafo = document.createTextNode("Parágrafo criado pelo javascript");
-paragrafo.appendChild(textoParagrafo)
+// let paragrafo = document.createElement("p");
 
-div.appendChild(paragrafo);
+// let textoParagrafo = document.createTextNode("Parágrafo criado pelo javascript");
+// paragrafo.appendChild(textoParagrafo)
+
+// div.appendChild(paragrafo);
+
+document.querySelector("#casa").innerText = "É sempre bom";
+document.querySelector("#dormir").innerText = "ir para casa";
+document.querySelector("#descanso").innerText = "descansar";
